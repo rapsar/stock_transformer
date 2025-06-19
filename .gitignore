@@ -1,0 +1,20 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+venv/
+env/
+*.egg-info/
+
+# IDE/editor dirs
+.vscode/
+.idea/
+
+# Data, logs, models
+*.pt
+*.pth
+logs/
+data/
+.DS_Store
