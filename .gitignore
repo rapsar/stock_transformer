@@ -16,7 +16,6 @@ env/
 *.pt
 *.pth
 logs/
-data/
 .DS_Store
 
 Transformer_Trading/

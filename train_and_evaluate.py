@@ -8,7 +8,7 @@ from config import Config
 
 cfg = Config()
 
-csv_file = "Transformer_Trading/EURUSD_Candlestick_1_Hour_BID_01.07.2020-15.07.2023.csv"
+csv_file = "data/EURUSD_Candlestick_1_Hour_BID_01.07.2020-15.07.2023.csv"
 
 df = prepare_data.load_forex_data(csv_file)
 df = prepare_data.add_technical_indicators(df)
